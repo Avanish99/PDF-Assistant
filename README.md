@@ -1,8 +1,8 @@
-**PDF Summary API**
+**PDF Assistant**
 
 
 
-A FastAPI-based backend application that allows users to upload PDF documents, create vector embeddings, retrieve relevant content using Retrieval-Augmented Generation (RAG), and generate accurate summaries and answers using OpenAI models.
+A FastAPI based backend application that allows users to upload PDF documents, create vector embeddings, retrieve relevant content using Retrieval-Augmented Generation (RAG), and generate accurate summaries and answers using OpenAI models.
 
 
 
@@ -44,7 +44,7 @@ PDF-Summary/
 
 │ │ ├── vector\_search.py
 
-│ │ 
+│ │
 
 │ │
 
@@ -138,9 +138,9 @@ Clone the repository:
 
 
 
-git clone https://github.com/Avanish99/PDF-Summary.git
+git clone https://github.com/Avanish99/PDF-Assistant.git
 
-cd PDF-Summary
+cd PDF-ASsistant
 
 
 
@@ -192,9 +192,9 @@ Example:
 
 
 
-OPENAI\_API\_KEY=your\_api\_key
+GROQ\_API\_KEY=your\_api\_key
 
-OPENAI\_MODEL=gpt-4.1-mini
+GROQ\_MODEL=llama-3.3-70b-versatile
 
 
 
@@ -206,7 +206,7 @@ OPENAI\_MODEL=gpt-4.1-mini
 4. Generate embeddings.
 5. Store vectors.
 6. Retrieve relevant chunks.
-7. Generate AI-powered summaries or answers.
+7. Generate AI-powered summaries and answers.
 
 
 
